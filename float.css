@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+   background-color: rgb(235, 80, 18); 
+    width: 100%;
+
+}
+.container .left, .right{
+    width:50%;
+    float:left;
+    
+}
+.container .left{
+    background-color: rgb(235, 80, 18);
+  
+}
+nav {
+ background-color: blueviolet;
+}
+p{
+    border: 5px dotted black; 
+}
+.right img{
+    width: 100%;
+
+}
+@media(max-width:1400px){
+    .container {
+        height:700px
+
+    }
+}
+
+
